@@ -1,0 +1,20 @@
+{
+    "name": "svknd/laravel-attachment",
+    "description": "Laravel Attachment Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Irvan Maulana",
+            "email": "me@tukangremot.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Svknd\\Laravel\\Attachment\\": "src/"
+        }
+    },
+    "require": {
+        "ktcd/file": "^0.1"
+    }
+}
